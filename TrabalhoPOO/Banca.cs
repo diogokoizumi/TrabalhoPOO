@@ -2,7 +2,7 @@
 
 namespace TrabalhoPOO
 {
-    internal class Banca : Jogador  // herda tudo do Jogador
+    internal class Banca : Jogador
     {
         public void ExecutarJogada(Baralho baralho, int pontosDoJogador)
         {
