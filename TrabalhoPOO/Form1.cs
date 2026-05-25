@@ -44,10 +44,8 @@ namespace TrabalhoPOO
 
         private void AtualizarTela(bool revelarBanca = false)
         {
-            // desenha cartas do jogador (sempre visíveis)
             DesenharCartas(pnlJogador, _jogador.Mao, revelar: true);
 
-            // desenha cartas da banca (1ª visível, resto oculto até revelar)
             DesenharCartas(pnlBanca, _banca.Mao, revelar: revelarBanca);
 
             // atualiza pontuações
@@ -71,7 +69,6 @@ namespace TrabalhoPOO
                 pb.SizeMode = PictureBoxSizeMode.StretchImage;
                 pb.BorderStyle = BorderStyle.FixedSingle;
 
-                // carta da banca: só mostra a primeira, o resto fica azul (virada)
                 bool mostrar = revelar || (painel == pnlBanca && i == 0);
 
                 if (mostrar)
@@ -91,7 +88,6 @@ namespace TrabalhoPOO
 
             int ptsJogador = _jogador.CalcularPontos();
 
-            // banca joga automaticamente
             _banca.ExecutarJogada(_baralho, ptsJogador);
 
             // revela todas as cartas da banca
@@ -99,7 +95,6 @@ namespace TrabalhoPOO
 
             int ptsBanca = _banca.CalcularPontos();
 
-            // decide o resultado
             if (ptsJogador > 21)
             {
                 lblResultado.Text = "Você estourou! Banca vence.";
@@ -129,7 +124,6 @@ namespace TrabalhoPOO
             _jogador.ReceberCarta(_baralho.ComprarCarta());
             AtualizarTela();
 
-            // se estourou, encerra automaticamente
             if (_jogador.CalcularPontos() > 21)
                 EncerrarRodada();
         }
