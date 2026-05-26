@@ -7,16 +7,16 @@ namespace TrabalhoPOO
     {
         private List<Carta> _mao = new List<Carta>();
 
-        public List<Carta> Mao { get => _mao; }
+        public List<Carta> Mao { get => _mao; set => _mao = value; }
 
         public void ReceberCarta(Carta carta)
         {
-            _mao.Add(carta);
+            Mao.Add(carta);
         }
 
         public void LimparMao()
         {
-            _mao.Clear();
+            Mao.Clear();
         }
 
         public int CalcularPontos()
