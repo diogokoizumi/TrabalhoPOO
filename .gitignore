@@ -5,7 +5,6 @@
 
 # Forçar a inclusão das pastas desejadas
 !bin/
-![Dd]ebug/
 !deck_1/
 
 # User-specific files
