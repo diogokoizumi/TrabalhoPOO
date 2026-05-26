@@ -1,0 +1,10 @@
+C:\Users\Samsung\source\repos\TrabalhoPOO\TrabalhoPOO\bin\Debug\TrabalhoPOO.exe.config
+C:\Users\Samsung\source\repos\TrabalhoPOO\TrabalhoPOO\bin\Debug\TrabalhoPOO.exe
+C:\Users\Samsung\source\repos\TrabalhoPOO\TrabalhoPOO\bin\Debug\TrabalhoPOO.pdb
+C:\Users\Samsung\source\repos\TrabalhoPOO\TrabalhoPOO\obj\Debug\TrabalhoPOO.csproj.AssemblyReference.cache
+C:\Users\Samsung\source\repos\TrabalhoPOO\TrabalhoPOO\obj\Debug\TrabalhoPOO.Properties.Resources.resources
+C:\Users\Samsung\source\repos\TrabalhoPOO\TrabalhoPOO\obj\Debug\TrabalhoPOO.csproj.GenerateResource.cache
+C:\Users\Samsung\source\repos\TrabalhoPOO\TrabalhoPOO\obj\Debug\TrabalhoPOO.csproj.CoreCompileInputs.cache
+C:\Users\Samsung\source\repos\TrabalhoPOO\TrabalhoPOO\obj\Debug\TrabalhoPOO.exe
+C:\Users\Samsung\source\repos\TrabalhoPOO\TrabalhoPOO\obj\Debug\TrabalhoPOO.pdb
+C:\Users\Samsung\source\repos\TrabalhoPOO\TrabalhoPOO\obj\Debug\TrabalhoPOO.Baralho.resources

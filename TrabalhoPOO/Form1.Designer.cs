@@ -103,7 +103,7 @@
             // 
             this.lblResultado.BackColor = System.Drawing.Color.Transparent;
             this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.lblResultado.ForeColor = System.Drawing.Color.Yellow;
+            this.lblResultado.ForeColor = System.Drawing.Color.Blue;
             this.lblResultado.Location = new System.Drawing.Point(12, 175);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(760, 30);
